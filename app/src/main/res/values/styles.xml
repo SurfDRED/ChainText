@@ -1,0 +1,22 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Text">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textAlignment">viewEnd</item>
+        <item name="android:textSize">80sp</item>
+    </style>
+
+    <style name="TextChain">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="autoSizeMaxTextSize">14sp</item>
+        <item name="autoSizeMinTextSize">4sp</item>
+        <item name="autoSizeStepGranularity">2sp</item>
+        <item name="autoSizeTextType">uniform</item>
+    </style>
+
+</resources>
